@@ -6,7 +6,7 @@ const inventario = [
 function buscarProducto(nombre, inventario) {
   for (let i = 0; i < inventario.length; i++) {
     if (inventario[i].nombre === nombre) {
-      return inventario[i]; // 💡 Producto encontrado
+      return inventario[i]; // Producto encontrado
     }
   }
   return null; // No encontrado
